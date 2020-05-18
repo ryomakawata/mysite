@@ -76,7 +76,17 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database #
 ############
 
-DATABASES = {}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mysite',
+        'USER': 'mysiteuser',
+        'PASSWORD': 'mysiteuserp@S5',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'ATOMIC_REQUESTS': True,
+    }
+}
 
 
 ############
