@@ -77,8 +77,9 @@ LOGGING = {
 # Email settings #
 ##################
 
-EMAIL_CONFIG = env.email_url('EMAIL_URL')
-vars().update(EMAIL_CONFIG)
+
+#EMAIL_CONFIG = env.email_url('EMAIL_URL')
+#vars().update(EMAIL_CONFIG)
 
 
 ###################
